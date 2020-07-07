@@ -6,6 +6,8 @@ const instaURL = "https://instagram.com/pro__googler/"
 const blogURL    = "https://veluvijay.hashnode.dev/";
 const githubURL   = "https://github.com/veluvj";
 const telegramURL = "https://t.me/progoogler";
+const twitterURL = "https://twitter.com/veluvjdevendran";
+
 const token = process.env.TOKEN;
 
 client.on("ready", ()=>{
@@ -74,6 +76,10 @@ client.on("message", msg =>{
 
     case "!github":
     msg.channel.send(githubURL);
+    break;
+
+    case "!twitter":
+    msg.channel.send(twitterURL);
     break;
 
 
