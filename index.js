@@ -1,5 +1,6 @@
 require('dotenv').config();
 const { Client, MessageEmbed } = require('discord.js');
+const config  = require('./config.json');
 const client = new Client();
 const embed = new MessageEmbed();
 const instaURL = "https://instagram.com/pro__googler/"
@@ -93,4 +94,4 @@ client.on("message", msg =>{
 
 })
 
-client.login(token)
+client.login(config.token)
