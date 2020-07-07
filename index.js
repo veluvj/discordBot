@@ -5,7 +5,7 @@ const instaURL = "https://instagram.com/pro__googler/"
 const blogURL    = "https://veluvijay.hashnode.dev/";
 const githubURL   = "https://github.com/veluvj";
 const telegramURL = "https://t.me/progoogler";
-
+const token = process.env.BOT_TOKEN || "NzI5NzUyNTU3MjMyMDYyNTc0.XwQWrQ.KC37dxiv5yhIXjusRH0FFbEF_cM";
 
 client.on("ready", ()=>{
 
@@ -92,4 +92,4 @@ client.on("message", msg =>{
 
 })
 
-client.login("NzI5NzUyNTU3MjMyMDYyNTc0.XwQWrQ.KC37dxiv5yhIXjusRH0FFbEF_cM")
+client.login(token)
