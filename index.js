@@ -5,7 +5,7 @@ const instaURL = "https://instagram.com/pro__googler/"
 const blogURL    = "https://veluvijay.hashnode.dev/";
 const githubURL   = "https://github.com/veluvj";
 const telegramURL = "https://t.me/progoogler";
-const token = process.env.BOT_TOKEN || "NzI5NzUyNTU3MjMyMDYyNTc0.XwQy7A.uqDBSWGFdU-zfwPIHfo252L3EmQ";
+const token = process.env.BOT_TOKEn || "NzI5OTgwNTU4MTQyMjEwMDc4.XwQ1cQ.-wqbN2ydCL-lbGoq_j0PFpQ2id0"
 
 client.on("ready", ()=>{
 
@@ -72,7 +72,7 @@ client.on("message", msg =>{
     break;
 
     case "!github":
-    msg.channel.send(telegramURL);
+    msg.channel.send(githubURL);
     break;
 
 
